@@ -101,7 +101,6 @@
                     // The current field that the pawn is on it 
                     this.CurrentField = playground[this.PawnPos];
                     // Plays the spesific sound 
-                    AudioPlayer.PlayStepSound();
                 }
 
                 // The user still needs to wait 
@@ -116,8 +115,6 @@
                 // Pawn moves forward 
                 for (int i = 0; i < steps; i++)
                 {
-                    AudioPlayer.PlayStepSound();
-
                     // The pawn is in the EntryToFinish Field
                     if (this.PawnPos == PlaygroundConstants.PlayerEntryToFinish[(int)this.Color])
                     {

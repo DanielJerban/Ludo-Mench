@@ -46,7 +46,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\Dice.cs" />
-    <Compile Include="AudioPlayer.cs" />
     <Compile Include="Constants\ColorConstants.cs" />
     <Compile Include="Constants\DiceConstants.cs" />
     <Compile Include="Constants\HomeConstants.cs" />
@@ -107,8 +106,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Sounds\Check.sfk" />
-    <None Include="Sounds\StartGame.sfk" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -125,40 +122,6 @@
     <Content Include="Resources\Playground1.png" />
     <Content Include="Resources\Standart.png" />
     <Content Include="Resources\StandartDis.png" />
-    <Content Include="Sounds\Catapult.wav" />
-    <Content Include="Sounds\CatapultEject.wav" />
-    <Content Include="Sounds\CatapultLoad.wav" />
-    <Content Include="Sounds\Check.wav" />
-    <Content Include="Sounds\Click.wav" />
-    <Content Include="Sounds\EvilLaugh.wav" />
-    <Content Include="Sounds\Explode.wav" />
-    <Content Include="Sounds\Hover.wav" />
-    <Content Include="Sounds\Laugh1.wav" />
-    <Content Include="Sounds\Laugh2.wav" />
-    <Content Include="Sounds\Laugh3.wav" />
-    <Content Include="Sounds\Laugh4.wav" />
-    <Content Include="Sounds\Laugh5.wav" />
-    <Content Include="Sounds\Military.wav" />
-    <Content Include="Sounds\PawnClick.wav" />
-    <Content Include="Sounds\PlaceBomb.wav" />
-    <Content Include="Sounds\PlaceCatapult.wav" />
-    <Content Include="Sounds\PlacePillow.wav" />
-    <Content Include="Sounds\PowerDown.wav" />
-    <Content Include="Sounds\Sleep.wav" />
-    <Content Include="Sounds\Snore.wav" />
-    <Content Include="Sounds\StartGame.wav" />
-    <Content Include="Sounds\Step1.wav" />
-    <Content Include="Sounds\Step2.wav" />
-    <Content Include="Sounds\Step3.wav" />
-    <Content Include="Sounds\Step4.wav" />
-    <Content Include="Sounds\Step5.wav" />
-    <Content Include="Sounds\Step6.wav" />
-    <Content Include="Sounds\Step7.wav" />
-    <Content Include="Sounds\Step8wav.wav" />
-    <Content Include="Sounds\Switch.wav" />
-    <Content Include="Sounds\TurnOn.wav" />
-    <Content Include="Sounds\WheelClick.wav" />
-    <Content Include="Sounds\Yeah.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
