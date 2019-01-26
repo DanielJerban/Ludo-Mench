@@ -62,6 +62,12 @@
     <Compile Include="Interfaces\IPawn.cs" />
     <Compile Include="Models\Dices\DiceStandart.cs" />
     <Compile Include="Models\Field.cs" />
+    <Compile Include="Models\GameSettings\GameSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\GameSettings\GameSettings.Designer.cs">
+      <DependentUpon>GameSettings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Game\Game.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     <Compile Include="Models\Playground.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Models\GameSettings\GameSettings.resx">
+      <DependentUpon>GameSettings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Models\Game\Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
     </EmbeddedResource>
