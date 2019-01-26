@@ -63,12 +63,30 @@
     <Compile Include="Interfaces\IPawn.cs" />
     <Compile Include="Models\Dices\DiceStandart.cs" />
     <Compile Include="Models\Field.cs" />
+    <Compile Include="Models\Game\Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\Game\Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Game\GameState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\Game\GameStateMethods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\Game\GameUtils.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Models\Home.cs" />
     <Compile Include="Models\Pawn.cs" />
     <Compile Include="Models\Player.cs" />
     <Compile Include="Models\Playground.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Models\Game\Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
